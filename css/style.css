@@ -55,7 +55,7 @@ font-weight: 300;
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
 	line-height: 23px;
     letter-spacing: 0.2px;
@@ -192,7 +192,7 @@ header .intro-text {
 
 @media (min-width: 768px) {
 	header .intro-text {
-	    padding-top: 300px;
+	    padding-top: 200px;
 	    padding-bottom: 200px;
 	}
 }
@@ -227,9 +227,9 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-heading {
 	    text-transform: uppercase;
 	    font-weight: 700;
-	    font-size: 75px;
-	    line-height: 75px;
-	    margin-bottom: 50px;
+        font-size: 65px;
+        line-height: 75px;
+        margin-bottom: 80px;
 	}
 }
 
@@ -243,7 +243,7 @@ header .intro-text .intro-heading {
 }
 
 .section-title p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 25px;
     margin: 20px 100px 60px 100px;
@@ -424,7 +424,7 @@ figure.effect-bubba figcaption::after {
 
 figure.effect-bubba h2 {
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 	padding-top: 30%;
@@ -769,4 +769,29 @@ and (max-width : 480px) {
     margin-top: 7px;
     font-size: 20px;
 }
+}
+
+@media only screen and (max-width: 500px) {
+   #logo img
+   {
+       width:33%;
+       margin-left:5px;
+       margin-top:5px;
+   }
+
+   .section-title p
+   {
+       margin:20px 15px 60px 15px;
+   }
+
+   .counter-item
+   {
+       margin:25px 0;
+   }
+
+   .counter-item h2
+   {
+       font-size:45px;
+       margin:5px 0;
+   }
 }
